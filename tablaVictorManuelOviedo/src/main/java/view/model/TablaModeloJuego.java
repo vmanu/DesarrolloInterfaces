@@ -236,9 +236,7 @@ public class TablaModeloJuego extends AbstractTableModel {
                 if (!juegosEvaluados.contains(juegosActualizado.get(i))) {
                     juegos.add(juegosActualizado.get(i));
                     juegosEvaluados.add(juegosActualizado.get(i));
-                    for (int k = 1; k < getColumnCount(); k++) {
-                        fireTableRowsInserted(getRowCount() - 1, getRowCount() - 1);
-                    }
+                    fireTableRowsInserted(getRowCount() - 1, getRowCount() - 1);
                 }
             }
         }

@@ -52,7 +52,7 @@ public class view extends javax.swing.JFrame {
         initComponents();
         control = new ControlJuegos();
         iniciaTabla();
-        t=new Timer(15000,new ActionListener() {
+        t=new Timer(5000,new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) {
                 TablaModeloJuego model=((TablaModeloJuego)jTable1.getModel());
@@ -70,7 +70,6 @@ public class view extends javax.swing.JFrame {
             public void tableChanged(TableModelEvent e) {
                 switch (e.getType()) {
                     case TableModelEvent.INSERT:
-                        System.out.println("I" + e.getColumn() + " " + e.getFirstRow());
                         break;
                     case TableModelEvent.UPDATE:
                         if (!((TablaModeloJuego) jTable1.getModel()).isInsertando()) {
@@ -86,7 +85,6 @@ public class view extends javax.swing.JFrame {
                         }
                         break;
                     case TableModelEvent.DELETE:
-                        System.out.println("entra aqui");
                         break;
                 }
             }

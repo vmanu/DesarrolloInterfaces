@@ -187,7 +187,6 @@ public class TablaModeloJuego extends AbstractTableModel {
     
     public void updateTable(int row) {
         ArrayList<Juego> juegosActualizado = control.getAllJuegos();
-        //int count=0;//NUMERO DE JUEGOS DE LA BD EVALUADOS
         ArrayList<Juego> juegosEvaluados = new ArrayList();
         boolean borradoEnEdicion = false;
         for (int j = 0; j < juegosActualizado.size(); j++) {
@@ -198,7 +197,6 @@ public class TablaModeloJuego extends AbstractTableModel {
                     juegos.get(i).setCreador(juegosActualizado.get(j).getCreador());
                     juegos.get(i).setTipo(juegosActualizado.get(j).getTipo());
                     juegos.get(i).setVentas(juegosActualizado.get(j).getVentas());
-                    //count++;//Contabilizamos que ha cambiado alguno
                     juegosEvaluados.add(juegosActualizado.get(j));
                     for (int k = 1; k < getColumnCount(); k++) {
                         fireTableCellUpdated(i, k);
@@ -206,10 +204,8 @@ public class TablaModeloJuego extends AbstractTableModel {
                 } else {
                     if (i == row && juegos.get(i).getId() == juegosActualizado.get(j).getId()) {//NO UPDATE PORQUE I=ROW, SE ESTA MODIFICANDO
                         juegosEvaluados.add(juegosActualizado.get(j));
-                        //count++;//Contabilizamos que ha encontrado uno y que coincide que esta siendo modificado
                     } else {
                         if (juegos.get(i).getId() == juegosActualizado.get(j).getId() && comparaJuegos(juegos.get(i), juegosActualizado.get(j))) {//NO MODIFICAMOS Y EXISTE EN LA BD AUN
-                            //count++;//Contabilizamos, porque ha encontrado, pero todo sigue igual
                             juegosEvaluados.add(juegosActualizado.get(j));
                         }
                     }

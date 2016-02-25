@@ -188,7 +188,6 @@ public class TablaModeloJuego extends AbstractTableModel {
     public void updateTable(int row) {
         ArrayList<Juego> juegosActualizado = control.getAllJuegos();
         ArrayList<Juego> juegosEvaluados = new ArrayList();
-        boolean borradoEnEdicion = false;
         for (int j = 0; j < juegosActualizado.size(); j++) {
             for (int i = 0; i < juegos.size(); i++) {
                 if (i != row && juegos.get(i).getId() == juegosActualizado.get(j).getId() && !comparaJuegos(juegos.get(i), juegosActualizado.get(j))) {//IDS IGUALES y CAMBIOS EN CAMPOS (UPDATE)
@@ -226,14 +225,13 @@ public class TablaModeloJuego extends AbstractTableModel {
                         juegos.remove(j);
                         fireTableRowsDeleted(j, j);//ZONA CRITICA
                     } else {
-                        borradoEnEdicion = true;
                         insertando = true;
                     }
                 }
             }
         }
         //AGREGAMOS
-        if ((juegosEvaluados.size() != juegosActualizado.size() && !borradoEnEdicion) || (borradoEnEdicion && juegosEvaluados.size() != juegosActualizado.size() + 1)) {//AGREGAMOS SI NO ESTA IGUALADO
+        if ((juegosEvaluados.size() != juegosActualizado.size())) {//AGREGAMOS SI NO ESTA IGUALADO
             for (int i = 0; i < juegosActualizado.size(); i++) {
                 if (!juegosEvaluados.contains(juegosActualizado.get(i))) {
                     juegos.add(juegosActualizado.get(i));

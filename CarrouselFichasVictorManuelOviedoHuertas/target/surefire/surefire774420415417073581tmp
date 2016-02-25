@@ -1,0 +1,33 @@
+#surefire
+#Wed Dec 02 00:09:51 CET 2015
+testClassesDirectory=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas\\target\\test-classes
+classPathUrl.4=C\:\\Users\\Victor\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.2.3\\jackson-annotations-2.2.3.jar
+forkMode=once
+classPathUrl.3=C\:\\Users\\Victor\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.2.3\\jackson-databind-2.2.3.jar
+classPathUrl.2=C\:\\Users\\Victor\\.m2\\repository\\org\\imgscalr\\imgscalr-lib\\4.2\\imgscalr-lib-4.2.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas\\target\\classes
+reportsDirectory=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas\\target\\surefire-reports
+classPathUrl.0=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas\\target\\test-classes
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas\\src\\test\\java
+requestedTest=test.Pruebas_Menu_item
+surefireClassPathUrl.1=C\:\\Users\\Victor\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.10\\surefire-api-2.10.jar
+surefireClassPathUrl.0=C\:\\Users\\Victor\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.10\\surefire-junit4-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+isTrimStackTrace=true
+enableAssertions=true
+classPathUrl.14=C\:\\Users\\Victor\\.m2\\repository\\org\\easytesting\\fest-assert\\1.4\\fest-assert-1.4.jar
+failIfNoTests=true
+classPathUrl.13=C\:\\Users\\Victor\\.m2\\repository\\net\\jcip\\jcip-annotations\\1.0\\jcip-annotations-1.0.jar
+includes0=**/test/Pruebas_Menu_item.java
+classPathUrl.12=C\:\\Users\\Victor\\.m2\\repository\\org\\easytesting\\fest-util\\1.1.3\\fest-util-1.1.3.jar
+classPathUrl.11=C\:\\Users\\Victor\\.m2\\repository\\org\\easytesting\\fest-reflect\\1.2\\fest-reflect-1.2.jar
+classPathUrl.10=C\:\\Users\\Victor\\.m2\\repository\\org\\easytesting\\fest-swing\\1.2.1\\fest-swing-1.2.1.jar
+classPathUrl.9=C\:\\Users\\Victor\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar
+classPathUrl.8=C\:\\Users\\Victor\\.m2\\repository\\junit\\junit\\4.12\\junit-4.12.jar
+classPathUrl.7=C\:\\Users\\Victor\\.m2\\repository\\org\\codehaus\\jackson\\jackson-mapper-asl\\1.7.5\\jackson-mapper-asl-1.7.5.jar
+childDelegation=false
+classPathUrl.6=C\:\\Users\\Victor\\.m2\\repository\\org\\codehaus\\jackson\\jackson-core-asl\\1.7.5\\jackson-core-asl-1.7.5.jar
+classPathUrl.5=C\:\\Users\\Victor\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.2.4\\jackson-core-2.2.4.jar

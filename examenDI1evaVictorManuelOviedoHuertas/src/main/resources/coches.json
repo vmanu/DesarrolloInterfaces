@@ -1,0 +1,39 @@
+[
+{
+    "marca": "audi",
+    "modelo": "A8",
+    "numeroAsientos": "5",
+    "precio" : "20000.20"
+},
+{
+    "marca": "audi",
+    "modelo": "A2",
+    "numeroAsientos": "4",
+    "precio" : "5000.20"
+},
+{
+    "marca": "citroen",
+    "modelo": "C1",
+    "numeroAsientos": "2",
+    "precio" : "10000.76"
+},
+{
+    "marca": "citroen",
+    "modelo": "C4",
+    "numeroAsientos": "4",
+    "precio" : "15443.99"
+},
+{
+    "marca": "renault",
+    "modelo": "Space",
+    "numeroAsientos": "5",
+    "precio" : "50000.25"
+},
+{
+    "marca": "renault",
+    "modelo": "R5",
+    "numeroAsientos": "3",
+    "precio" : "40000.97"
+}
+
+]

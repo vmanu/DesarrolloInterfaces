@@ -1,0 +1,12 @@
+#surefire
+#Wed Dec 02 00:49:37 CET 2015
+jpda.address=52674
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.0.1\\java\\maven-nblib\\netbeans-eventspy.jar
+file.encoding=UTF-8
+jpda.listen=true
+forkMode=once
+user.dir=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas
+localRepository=C\:\\Users\\Victor\\.m2\\repository
+test=test.Funcionalidades
+basedir=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas
+maven.surefire.debug=-Xdebug -Xrunjdwp\:transport\=dt_socket,server\=n,address\=52674

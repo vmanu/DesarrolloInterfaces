@@ -1,0 +1,8 @@
+#surefire
+#Wed Dec 02 00:05:21 CET 2015
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.0.1\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas
+file.encoding=UTF-8
+localRepository=C\:\\Users\\Victor\\.m2\\repository
+basedir=D\:\\Victor\\Mis documentos\\Curso DAM\\NetBeansProjectsDam2\\DesarrolloInterfaces\\CarrouselFichasVictorManuelOviedoHuertas
+test=test.Pruebas_Menu_item
